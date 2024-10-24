@@ -86,6 +86,8 @@
      gnucash
      alacritty
      vscode
+     joplin-desktop
+     libreoffice-fresh
 
     thefuck
 
