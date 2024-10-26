@@ -18,7 +18,7 @@
         }; #oh-my-zsh
 
         shellAliases = {
-            nix_rebuild = "sudo nixos-rebuild switch --flake ~/myNixos";
+            nix_rebuild = "sudo nixos-rebuild switch --flake ~/myNixOS";
             nix_config = "code ~/myNixos";
             nix_push = "git push -u origin main";
         }; #Shell Aliases (zsh)
