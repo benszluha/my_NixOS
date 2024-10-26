@@ -48,6 +48,11 @@
         userEmail = "ben@szluha.co.za";
     }; #git
 
+    programs.ssh = {
+      enable = true;
+    }; #ssh
+
+
     home.packages = with pkgs; [
         neofetch
 
