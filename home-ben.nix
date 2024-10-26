@@ -18,8 +18,9 @@
         }; #oh-my-zsh
 
         shellAliases = {
-            rebuild = "sudo nixos-rebuild switch --flake ~/.dotfiles";
-            config = "code ~/.dotfiles";
+            nix_rebuild = "sudo nixos-rebuild switch --flake ~/myNixos";
+            nix_config = "code ~/myNixos";
+            nix_push = "git push -u origin main"
         }; #Shell Aliases (zsh)
 
         initExtra = ''
